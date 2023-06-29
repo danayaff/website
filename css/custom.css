@@ -1,0 +1,51 @@
+	/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+:root {
+  --bs-body-font-size: 1.25rem;
+}
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+#content p, ul { line-height: 1.8; }
+
+h1, h2, h3 {
+	font-weight: 900;
+}
+
+p.before-list {
+	margin-bottom: 5px;
+}
+
+p.after-list {
+	margin-top: 1.2em;
+}
+
+p.resources {
+  line-height: 1.0;
+  margin-bottom: 8px;
+  font-size: 1.2rem;
+}
+
+h2.resources {
+  margin-top: 30px;
+  margin-bottom: 8px;
+}
+
+.accordion-title {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) { /* Make banner less high on narrow displays. */
+  .swiper-slide-bg {
+/*     display:none !important;*/
+     height: 60vh; /* 60% of view height */
+  }
+}
